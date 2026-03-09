@@ -1,1 +1,1 @@
-// @vellusion/math
+export { VelMath } from './MathUtils';
