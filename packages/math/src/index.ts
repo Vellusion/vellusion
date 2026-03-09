@@ -7,3 +7,5 @@ export { Vec4 } from './Vec4';
 export type { Vec4Type } from './Vec4';
 export { Mat3 } from './Mat3';
 export type { Mat3Type } from './Mat3';
+export { Mat4 } from './Mat4';
+export type { Mat4Type } from './Mat4';
