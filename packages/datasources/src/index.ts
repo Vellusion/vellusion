@@ -9,3 +9,6 @@ export type { DataSource } from './DataSource';
 export { CustomDataSource } from './CustomDataSource';
 export { DataSourceCollection } from './DataSourceCollection';
 export { GeoJsonDataSource, type GeoJsonDataSourceOptions } from './GeoJsonDataSource';
+export { CzmlDataSource } from './CzmlDataSource';
+export { KmlDataSource } from './KmlDataSource';
+export { GpxDataSource } from './GpxDataSource';

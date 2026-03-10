@@ -57,4 +57,14 @@ export const JulianDate = {
   equals(left: JulianDateType, right: JulianDateType): boolean {
     return left.dayNumber === right.dayNumber && left.secondsOfDay === right.secondsOfDay;
   },
+
+  fromIso8601(iso: string): JulianDateType {
+    return JulianDate.fromDate(new Date(iso));
+  },
+
+  fromSeconds(totalSeconds: number): JulianDateType {
+    // Treat as seconds since J2000 epoch (JD 2451545.0)
+    const j2000DayNumber = 2451545;
+    return JulianDate.create(j2000DayNumber, totalSeconds);
+  },
 } as const;
