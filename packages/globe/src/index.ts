@@ -15,3 +15,9 @@ export { ImageryLayer } from './ImageryLayer';
 export type { ImageryLayerOptions } from './ImageryLayer';
 export { ImageryLayerCollection } from './ImageryLayerCollection';
 export { QuadtreeTile, TileState } from './QuadtreeTile';
+export {
+  GeographicTilingScheme,
+  WebMercatorTerrainTilingScheme,
+  EllipsoidTerrainProvider,
+} from './TerrainProvider';
+export type { TerrainTilingScheme, TerrainProvider } from './TerrainProvider';
