@@ -33,6 +33,18 @@ importers:
         specifier: workspace:*
         version: link:../../packages/math
 
+  examples/scene-cube:
+    dependencies:
+      '@vellusion/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@vellusion/math':
+        specifier: workspace:*
+        version: link:../../packages/math
+      '@vellusion/scene':
+        specifier: workspace:*
+        version: link:../../packages/scene
+
   packages/core:
     dependencies:
       '@vellusion/math':
