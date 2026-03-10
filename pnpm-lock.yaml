@@ -66,6 +66,21 @@ importers:
         specifier: workspace:*
         version: link:../math
 
+  packages/geometry:
+    dependencies:
+      '@vellusion/core':
+        specifier: workspace:*
+        version: link:../core
+      '@vellusion/globe':
+        specifier: workspace:*
+        version: link:../globe
+      '@vellusion/math':
+        specifier: workspace:*
+        version: link:../math
+      '@vellusion/scene':
+        specifier: workspace:*
+        version: link:../scene
+
   packages/globe:
     dependencies:
       '@vellusion/core':

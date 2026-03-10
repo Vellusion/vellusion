@@ -8,6 +8,7 @@ export default defineConfig({
       '@vellusion/core': resolve(__dirname, 'packages/core/src/index.ts'),
       '@vellusion/scene': resolve(__dirname, 'packages/scene/src/index.ts'),
       '@vellusion/globe': resolve(__dirname, 'packages/globe/src/index.ts'),
+      '@vellusion/geometry': resolve(__dirname, 'packages/geometry/src/index.ts'),
     },
   },
   test: {
