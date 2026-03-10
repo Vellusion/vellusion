@@ -27,3 +27,5 @@ export { WallGeometry } from './WallGeometry';
 export type { WallGeometryOptions } from './WallGeometry';
 export { CorridorGeometry } from './CorridorGeometry';
 export type { CorridorGeometryOptions } from './CorridorGeometry';
+export { Material } from './Material';
+export type { MaterialOptions } from './Material';
