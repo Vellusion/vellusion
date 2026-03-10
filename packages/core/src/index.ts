@@ -15,4 +15,3 @@ export type { RenderPassOptions } from './RenderPass';
 export { beginComputePass, dispatchCompute } from './ComputePass';
 export { FrameLoop } from './FrameLoop';
 export type { FrameStats } from './FrameLoop';
-export { RenderPipelineBuilder, PipelineCache } from './Pipeline';
