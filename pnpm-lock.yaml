@@ -24,6 +24,21 @@ importers:
         specifier: ^3.0.0
         version: 3.2.4
 
+  examples/globe-osm:
+    dependencies:
+      '@vellusion/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@vellusion/globe':
+        specifier: workspace:*
+        version: link:../../packages/globe
+      '@vellusion/math':
+        specifier: workspace:*
+        version: link:../../packages/math
+      '@vellusion/scene':
+        specifier: workspace:*
+        version: link:../../packages/scene
+
   examples/hello-triangle:
     dependencies:
       '@vellusion/core':
