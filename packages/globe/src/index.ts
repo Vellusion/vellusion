@@ -14,3 +14,4 @@ export type {
 export { ImageryLayer } from './ImageryLayer';
 export type { ImageryLayerOptions } from './ImageryLayer';
 export { ImageryLayerCollection } from './ImageryLayerCollection';
+export { QuadtreeTile, TileState } from './QuadtreeTile';
