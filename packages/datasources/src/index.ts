@@ -1,1 +1,6 @@
 // @vellusion/datasources
+export { Event } from './Event';
+export { Entity, type EntityOptions } from './Entity';
+export { EntityCollection } from './EntityCollection';
+export { EntityCluster } from './EntityCluster';
+export * from './graphics';
