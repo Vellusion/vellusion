@@ -7,3 +7,6 @@ export { SamplerWrapper } from './Sampler';
 export type { SamplerDescriptor } from './Sampler';
 export { GPUBufferWrapper } from './Buffer';
 export type { BufferUsage, BufferDescriptor } from './Buffer';
+export { ShaderPreprocessor } from './ShaderPreprocessor';
+export type { ShaderDefines } from './ShaderPreprocessor';
+export { ShaderLibrary } from './ShaderLibrary';
