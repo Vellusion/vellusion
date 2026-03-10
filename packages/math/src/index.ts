@@ -23,3 +23,7 @@ export { Plane } from './Plane';
 export type { PlaneType } from './Plane';
 export { IntersectionTests, Intersect } from './IntersectionTests';
 export { Transforms } from './Transforms';
+export { LinearSpline, HermiteSpline, CatmullRomSpline } from './Spline';
+export type { SplineType, HermiteSplineType } from './Spline';
+export { GeographicProjection, WebMercatorProjection } from './Projection';
+export type { ProjectionType } from './Projection';
