@@ -12,3 +12,5 @@ export { GeoJsonDataSource, type GeoJsonDataSourceOptions } from './GeoJsonDataS
 export { CzmlDataSource } from './CzmlDataSource';
 export { KmlDataSource } from './KmlDataSource';
 export { GpxDataSource } from './GpxDataSource';
+export { DataSourceDisplay, EntityVisualizer } from './DataSourceDisplay';
+export type { DataSourceDisplayOptions } from './DataSourceDisplay';
