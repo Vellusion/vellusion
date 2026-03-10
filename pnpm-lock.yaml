@@ -24,6 +24,15 @@ importers:
         specifier: ^3.0.0
         version: 3.2.4
 
+  examples/hello-triangle:
+    dependencies:
+      '@vellusion/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@vellusion/math':
+        specifier: workspace:*
+        version: link:../../packages/math
+
   packages/core:
     dependencies:
       '@vellusion/math':

@@ -1,0 +1,12 @@
+{
+  "name": "@vellusion/example-hello-triangle",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@vellusion/core": "workspace:*",
+    "@vellusion/math": "workspace:*"
+  }
+}
