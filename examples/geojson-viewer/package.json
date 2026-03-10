@@ -1,0 +1,13 @@
+{
+  "name": "@vellusion/example-geojson-viewer",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite" },
+  "dependencies": {
+    "@vellusion/core": "workspace:*",
+    "@vellusion/math": "workspace:*",
+    "@vellusion/scene": "workspace:*",
+    "@vellusion/globe": "workspace:*",
+    "@vellusion/datasources": "workspace:*"
+  }
+}

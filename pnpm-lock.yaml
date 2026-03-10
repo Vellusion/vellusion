@@ -24,6 +24,24 @@ importers:
         specifier: ^3.0.0
         version: 3.2.4
 
+  examples/geojson-viewer:
+    dependencies:
+      '@vellusion/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@vellusion/datasources':
+        specifier: workspace:*
+        version: link:../../packages/datasources
+      '@vellusion/globe':
+        specifier: workspace:*
+        version: link:../../packages/globe
+      '@vellusion/math':
+        specifier: workspace:*
+        version: link:../../packages/math
+      '@vellusion/scene':
+        specifier: workspace:*
+        version: link:../../packages/scene
+
   examples/geometry-demo:
     dependencies:
       '@vellusion/core':
