@@ -4,3 +4,4 @@ export { Entity, type EntityOptions } from './Entity';
 export { EntityCollection } from './EntityCollection';
 export { EntityCluster } from './EntityCluster';
 export * from './graphics';
+export * from './properties';
