@@ -21,3 +21,5 @@ export {
   EllipsoidTerrainProvider,
 } from './TerrainProvider';
 export type { TerrainTilingScheme, TerrainProvider } from './TerrainProvider';
+export { QuadtreePrimitive } from './QuadtreePrimitive';
+export type { QuadtreePrimitiveOptions } from './QuadtreePrimitive';
