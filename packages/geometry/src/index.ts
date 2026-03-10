@@ -29,3 +29,15 @@ export { CorridorGeometry } from './CorridorGeometry';
 export type { CorridorGeometryOptions } from './CorridorGeometry';
 export { Material } from './Material';
 export type { MaterialOptions } from './Material';
+export type { RenderState, Appearance } from './Appearance';
+export {
+  MaterialAppearance,
+  PerInstanceColorAppearance,
+  EllipsoidSurfaceAppearance,
+  PolylineColorAppearance,
+  PolylineMaterialAppearance,
+} from './Appearance';
+export { Primitive } from './Primitive';
+export { GroundPrimitive } from './GroundPrimitive';
+export { ClassificationPrimitive } from './ClassificationPrimitive';
+export type { ClassificationType } from './ClassificationPrimitive';
