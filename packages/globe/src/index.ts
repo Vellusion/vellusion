@@ -23,3 +23,6 @@ export {
 export type { TerrainTilingScheme, TerrainProvider } from './TerrainProvider';
 export { QuadtreePrimitive } from './QuadtreePrimitive';
 export type { QuadtreePrimitiveOptions } from './QuadtreePrimitive';
+export { Globe } from './Globe';
+export type { GlobeOptions } from './Globe';
+export { GlobeRenderer } from './GlobeRenderer';
