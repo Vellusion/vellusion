@@ -5,3 +5,5 @@ export { TextureWrapper, TEXTURE_USAGE } from './Texture';
 export type { TextureDescriptor } from './Texture';
 export { SamplerWrapper } from './Sampler';
 export type { SamplerDescriptor } from './Sampler';
+export { GPUBufferWrapper } from './Buffer';
+export type { BufferUsage, BufferDescriptor } from './Buffer';
