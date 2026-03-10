@@ -10,3 +10,4 @@ export {
 } from './ScreenSpaceEventHandler';
 export { JulianDate, type JulianDateType } from './JulianDate';
 export { Clock, ClockRange, ClockStep, type ClockOptions } from './Clock';
+export { CameraAnimations, type FlyToOptions } from './CameraAnimations';
