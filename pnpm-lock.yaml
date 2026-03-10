@@ -41,6 +41,15 @@ importers:
 
   packages/math: {}
 
+  packages/scene:
+    dependencies:
+      '@vellusion/core':
+        specifier: workspace:*
+        version: link:../core
+      '@vellusion/math':
+        specifier: workspace:*
+        version: link:../math
+
 packages:
 
   '@babel/helper-string-parser@7.27.1':
