@@ -1,0 +1,23 @@
+{
+  "name": "@vellusion/vellusion",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": { ".": { "import": "./dist/index.js", "types": "./dist/index.d.ts" } },
+  "scripts": { "build": "vite build", "test": "vitest run" },
+  "dependencies": {
+    "@vellusion/math": "workspace:*",
+    "@vellusion/core": "workspace:*",
+    "@vellusion/scene": "workspace:*",
+    "@vellusion/globe": "workspace:*",
+    "@vellusion/geometry": "workspace:*",
+    "@vellusion/datasources": "workspace:*",
+    "@vellusion/tiles3d": "workspace:*",
+    "@vellusion/model": "workspace:*",
+    "@vellusion/particles": "workspace:*",
+    "@vellusion/analysis": "workspace:*",
+    "@vellusion/widgets": "workspace:*"
+  },
+  "files": ["dist"]
+}
