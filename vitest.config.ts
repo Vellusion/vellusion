@@ -10,6 +10,8 @@ export default defineConfig({
       '@vellusion/globe': resolve(__dirname, 'packages/globe/src/index.ts'),
       '@vellusion/geometry': resolve(__dirname, 'packages/geometry/src/index.ts'),
       '@vellusion/datasources': resolve(__dirname, 'packages/datasources/src/index.ts'),
+      '@vellusion/model': resolve(__dirname, 'packages/model/src/index.ts'),
+      '@vellusion/tiles3d': resolve(__dirname, 'packages/tiles3d/src/index.ts'),
     },
   },
   test: {
