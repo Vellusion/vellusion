@@ -24,6 +24,15 @@ importers:
         specifier: ^3.0.0
         version: 3.2.4
 
+  examples/analysis-demo:
+    dependencies:
+      '@vellusion/analysis':
+        specifier: workspace:*
+        version: link:../../packages/analysis
+      '@vellusion/math':
+        specifier: workspace:*
+        version: link:../../packages/math
+
   examples/geojson-viewer:
     dependencies:
       '@vellusion/core':
@@ -95,6 +104,21 @@ importers:
       '@vellusion/math':
         specifier: workspace:*
         version: link:../../packages/math
+
+  examples/particles-demo:
+    dependencies:
+      '@vellusion/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@vellusion/math':
+        specifier: workspace:*
+        version: link:../../packages/math
+      '@vellusion/particles':
+        specifier: workspace:*
+        version: link:../../packages/particles
+      '@vellusion/scene':
+        specifier: workspace:*
+        version: link:../../packages/scene
 
   examples/scene-cube:
     dependencies:

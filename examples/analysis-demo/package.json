@@ -1,0 +1,12 @@
+{
+  "name": "@vellusion/example-analysis-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@vellusion/math": "workspace:*",
+    "@vellusion/analysis": "workspace:*"
+  }
+}

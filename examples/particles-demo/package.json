@@ -1,0 +1,14 @@
+{
+  "name": "@vellusion/example-particles-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@vellusion/core": "workspace:*",
+    "@vellusion/math": "workspace:*",
+    "@vellusion/scene": "workspace:*",
+    "@vellusion/particles": "workspace:*"
+  }
+}
