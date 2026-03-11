@@ -1,14 +1,10 @@
 import type { Mat4Type } from '@vellusion/math';
 import { Mat4 } from '@vellusion/math';
 import type { ParticleBurst } from './ParticleBurst';
+import type { Emitter } from './emitters/index';
+import type { ForceField } from './ForceField';
 
-export interface Emitter {
-  emit(): { position: Float32Array; velocity: Float32Array };
-}
-
-export interface ForceField {
-  apply(position: Float32Array, velocity: Float32Array, dt: number): void;
-}
+export type { Emitter, ForceField };
 
 export interface ParticleSystemOptions {
   emitter: Emitter;
