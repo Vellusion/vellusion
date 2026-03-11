@@ -36,6 +36,27 @@ importers:
         specifier: workspace:*
         version: link:../../packages/math
 
+  examples/full-viewer:
+    dependencies:
+      '@vellusion/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@vellusion/datasources':
+        specifier: workspace:*
+        version: link:../../packages/datasources
+      '@vellusion/globe':
+        specifier: workspace:*
+        version: link:../../packages/globe
+      '@vellusion/math':
+        specifier: workspace:*
+        version: link:../../packages/math
+      '@vellusion/scene':
+        specifier: workspace:*
+        version: link:../../packages/scene
+      '@vellusion/widgets':
+        specifier: workspace:*
+        version: link:../../packages/widgets
+
   examples/geojson-viewer:
     dependencies:
       '@vellusion/core':
