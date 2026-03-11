@@ -126,6 +126,21 @@ importers:
         specifier: workspace:*
         version: link:../../packages/tiles3d
 
+  packages/analysis:
+    dependencies:
+      '@vellusion/core':
+        specifier: workspace:*
+        version: link:../core
+      '@vellusion/globe':
+        specifier: workspace:*
+        version: link:../globe
+      '@vellusion/math':
+        specifier: workspace:*
+        version: link:../math
+      '@vellusion/scene':
+        specifier: workspace:*
+        version: link:../scene
+
   packages/core:
     dependencies:
       '@vellusion/math':
@@ -180,6 +195,18 @@ importers:
   packages/math: {}
 
   packages/model:
+    dependencies:
+      '@vellusion/core':
+        specifier: workspace:*
+        version: link:../core
+      '@vellusion/math':
+        specifier: workspace:*
+        version: link:../math
+      '@vellusion/scene':
+        specifier: workspace:*
+        version: link:../scene
+
+  packages/particles:
     dependencies:
       '@vellusion/core':
         specifier: workspace:*
