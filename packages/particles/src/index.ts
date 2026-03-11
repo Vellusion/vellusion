@@ -14,3 +14,6 @@ export { GravityForce, WindForce, CustomForce } from './ForceField';
 
 // Interpolation
 export { ParticleInterpolator } from './ParticleInterpolator';
+
+// Renderer
+export { ParticleRenderer } from './ParticleRenderer';
