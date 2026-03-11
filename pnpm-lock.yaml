@@ -72,6 +72,21 @@ importers:
         specifier: workspace:*
         version: link:../../packages/scene
 
+  examples/gltf-viewer:
+    dependencies:
+      '@vellusion/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@vellusion/math':
+        specifier: workspace:*
+        version: link:../../packages/math
+      '@vellusion/model':
+        specifier: workspace:*
+        version: link:../../packages/model
+      '@vellusion/scene':
+        specifier: workspace:*
+        version: link:../../packages/scene
+
   examples/hello-triangle:
     dependencies:
       '@vellusion/core':
@@ -92,6 +107,24 @@ importers:
       '@vellusion/scene':
         specifier: workspace:*
         version: link:../../packages/scene
+
+  examples/tiles3d-viewer:
+    dependencies:
+      '@vellusion/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@vellusion/globe':
+        specifier: workspace:*
+        version: link:../../packages/globe
+      '@vellusion/math':
+        specifier: workspace:*
+        version: link:../../packages/math
+      '@vellusion/scene':
+        specifier: workspace:*
+        version: link:../../packages/scene
+      '@vellusion/tiles3d':
+        specifier: workspace:*
+        version: link:../../packages/tiles3d
 
   packages/core:
     dependencies:
