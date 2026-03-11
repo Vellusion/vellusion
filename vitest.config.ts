@@ -14,6 +14,8 @@ export default defineConfig({
       '@vellusion/tiles3d': resolve(__dirname, 'packages/tiles3d/src/index.ts'),
       '@vellusion/particles': resolve(__dirname, 'packages/particles/src/index.ts'),
       '@vellusion/analysis': resolve(__dirname, 'packages/analysis/src/index.ts'),
+      '@vellusion/widgets': resolve(__dirname, 'packages/widgets/src/index.ts'),
+      '@vellusion/vellusion': resolve(__dirname, 'packages/vellusion/src/index.ts'),
     },
   },
   test: {
