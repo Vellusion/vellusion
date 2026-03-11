@@ -11,3 +11,5 @@ export {
 export { ModelSkin } from './ModelSkin';
 export { ModelBuilder } from './ModelBuilder';
 export type { ModelData } from './ModelBuilder';
+export { Model } from './Model';
+export { ModelRenderer } from './ModelRenderer';
