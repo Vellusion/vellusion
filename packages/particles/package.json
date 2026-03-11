@@ -11,5 +11,6 @@
     "@vellusion/core": "workspace:*",
     "@vellusion/scene": "workspace:*"
   },
-  "files": ["dist"]
+  "files": ["dist"],
+  "publishConfig": { "access": "public" }
 }

@@ -14,5 +14,6 @@
     "build": "vite build",
     "test": "vitest run"
   },
-  "files": ["dist"]
+  "files": ["dist"],
+  "publishConfig": { "access": "public" }
 }

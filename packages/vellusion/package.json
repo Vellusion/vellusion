@@ -19,5 +19,6 @@
     "@vellusion/analysis": "workspace:*",
     "@vellusion/widgets": "workspace:*"
   },
-  "files": ["dist"]
+  "files": ["dist"],
+  "publishConfig": { "access": "public" }
 }

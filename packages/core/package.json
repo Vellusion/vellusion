@@ -17,5 +17,6 @@
   "dependencies": {
     "@vellusion/math": "workspace:*"
   },
-  "files": ["dist"]
+  "files": ["dist"],
+  "publishConfig": { "access": "public" }
 }
