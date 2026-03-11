@@ -6,3 +6,5 @@ dist/
 .env.*
 coverage/
 .turbo/
+*.local.md
+docs/plans/
